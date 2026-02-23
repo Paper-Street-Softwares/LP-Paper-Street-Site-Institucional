@@ -44,6 +44,10 @@ import {
   LayoutGrid,
   Hourglass,
   Brain,
+  SearchX,
+  BadgeX,
+  MessageSquareX,
+  ShieldX,
 } from "lucide-react";
 
 import { FileText } from "lucide-react";
@@ -266,12 +270,9 @@ const content = {
 
       cards: {
         card1: {
-          title: <>Site institucional elegante</>,
+          title: <>Seu site não passa credibilidade</>,
           subtitle: (
-            <>
-              Estrutura pensada para apresentar seu escritório com organização,
-              clareza e sobriedade.
-            </>
+            <>Visual amador pode afastar clientes antes mesmo do contato.</>
           ),
           description: (
             <div>
@@ -281,17 +282,16 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <Building2 />,
+          icon: <ShieldX />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card2: {
-          title: <>Apresentação profissional no Google</>,
+          title: <>Você não aparece bem no Google</>,
           subtitle: (
             <>
-              Quando pesquisam seu nome, encontram um site que transmite
-              estrutura e credibilidade.
+              Quando pesquisam seu nome, não encontram estrutura profissional.
             </>
           ),
           description: (
@@ -302,19 +302,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <SearchCheck />,
+          icon: <SearchX />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card3: {
-          title: <>Autoridade antes da reunião</>,
-          subtitle: (
-            <>
-              O site reforça sua trajetória e áreas de atuação antes do primeiro
-              contato.
-            </>
-          ),
+          title: <>Falta autoridade online</>,
+          subtitle: <>Sem um site sólido, sua experiência não é percebida.</>,
           description: (
             <div>
               A_Definir
@@ -323,18 +318,15 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <BadgeCheck />,
+          icon: <BadgeX />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card4: {
-          title: <>Organização clara das informações</>,
+          title: <>Informações confusas</>,
           subtitle: (
-            <>
-              Áreas de atuação, equipe e posicionamento apresentados de forma
-              objetiva e institucional.
-            </>
+            <>Áreas e posicionamento mal organizados geram desconfiança.</>
           ),
           description: (
             <div>
@@ -350,12 +342,9 @@ const content = {
         },
 
         card5: {
-          title: <>Comunicação adequada ao meio jurídico</>,
+          title: <>Comunicação desalinhada</>,
           subtitle: (
-            <>
-              Linguagem clara, respeitosa e alinhada ao padrão esperado na
-              advocacia.
-            </>
+            <>Linguagem inadequada pode comprometer sua imagem profissional.</>
           ),
           description: (
             <div>
@@ -365,18 +354,15 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <MessageSquare />,
+          icon: <MessageSquareX />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card6: {
-          title: <>Modelo validado para advogados</>,
+          title: <>Site improvisado</>,
           subtitle: (
-            <>
-              Estrutura desenvolvida exclusivamente para o meio jurídico, sem
-              improvisos ou excessos.
-            </>
+            <>Modelos genéricos não refletem a seriedade da advocacia.</>
           ),
           description: (
             <div>
