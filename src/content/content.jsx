@@ -265,14 +265,17 @@ const content = {
       ),
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
-      titleMessageFeature: <>Esse cenário precisa mudar!</>,
+      titleMessageFeature: <>Profissionalismo que se vê</>,
       subtitleMessageFeature: <></>,
 
       cards: {
         card1: {
-          title: <>Seu site não passa credibilidade</>,
+          title: <>Ganhe credibilidade instantânea</>,
           subtitle: (
-            <>Visual amador pode afastar clientes antes mesmo do contato.</>
+            <>
+              Um site profissional faz clientes confiarem antes mesmo do
+              primeiro contato.
+            </>
           ),
           description: (
             <div>
@@ -288,10 +291,10 @@ const content = {
         },
 
         card2: {
-          title: <>Você não aparece bem no Google</>,
+          title: <>Apareça no Google</>,
           subtitle: (
             <>
-              Quando pesquisam seu nome, não encontram estrutura profissional.
+              Seja encontrado por clientes que procuram exatamente seu serviço.
             </>
           ),
           description: (
@@ -308,8 +311,13 @@ const content = {
         },
 
         card3: {
-          title: <>Falta autoridade online</>,
-          subtitle: <>Sem um site sólido, sua experiência não é percebida.</>,
+          title: <>Mostre sua autoridade</>,
+          subtitle: (
+            <>
+              Sua experiência e especialização são percebidas online de forma
+              clara.
+            </>
+          ),
           description: (
             <div>
               A_Definir
@@ -324,9 +332,9 @@ const content = {
         },
 
         card4: {
-          title: <>Informações confusas</>,
+          title: <>Organize suas áreas</>,
           subtitle: (
-            <>Áreas e posicionamento mal organizados geram desconfiança.</>
+            <>Áreas e serviços apresentados de forma clara passam confiança.</>
           ),
           description: (
             <div>
@@ -342,9 +350,12 @@ const content = {
         },
 
         card5: {
-          title: <>Comunicação desalinhada</>,
+          title: <>Comunicação que vende</>,
           subtitle: (
-            <>Linguagem inadequada pode comprometer sua imagem profissional.</>
+            <>
+              Linguagem clara e profissional conquista clientes antes mesmo do
+              primeiro contato.
+            </>
           ),
           description: (
             <div>
@@ -360,9 +371,9 @@ const content = {
         },
 
         card6: {
-          title: <>Site improvisado</>,
+          title: <>Diferencie-se da concorrência</>,
           subtitle: (
-            <>Modelos genéricos não refletem a seriedade da advocacia.</>
+            <>Um site exclusivo mostra que você leva a advocacia a sério.</>
           ),
           description: (
             <div>
@@ -580,17 +591,11 @@ const content = {
           ),
           topic3: (
             <>
-              Ter clareza sobre o que pode e o que não pode ser feito dentro das
-              normas da OAB
-            </>
-          ),
-          topic4: (
-            <>
               Garantir que o site esteja alinhado ao nível profissional que você
               já alcançou
             </>
           ),
-          topic5: (
+          topic4: (
             <>
               Escolher uma estrutura que transmita solidez hoje e continue
               adequada nos próximos anos
@@ -613,8 +618,7 @@ const content = {
       subtitle: (
         <>
           Estruturamos sites elegantes e organizados para apresentar o advogado
-          ou o escritório com clareza, sobriedade e autoridade, sempre alinhados
-          às normas da OAB.
+          ou o escritório com clareza, sobriedade e autoridade.
         </>
       ),
       img: imgSteps,
@@ -822,12 +826,12 @@ const content = {
           ),
         },
         question2: {
-          question: <>O site segue as normas da OAB?</>,
+          question: <>Preciso fornecer conteúdos prontos?</>,
           answer: (
             <>
-              Sim. O formato é institucional e informativo, sem promessas
-              comerciais ou linguagem apelativa. O objetivo é apresentar sua
-              atuação com sobriedade, respeitando as diretrizes da advocacia.
+              Não. Você só nos passa informações sobre sua atuação e áreas de
+              prática. Nós organizamos os textos, imagens e estrutura do site de
+              forma profissional.
             </>
           ),
         },
