@@ -265,7 +265,7 @@ const content = {
       ),
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
-      titleMessageFeature: <>Profissionalismo que se vê</>,
+      titleMessageFeature: <>Excelência que gera confiança</>,
       subtitleMessageFeature: <></>,
 
       cards: {
