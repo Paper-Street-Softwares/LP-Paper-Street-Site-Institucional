@@ -48,6 +48,7 @@ import {
   BadgeX,
   MessageSquareX,
   ShieldX,
+  ChartColumnDecreasing,
 } from "lucide-react";
 
 import { FileText } from "lucide-react";
@@ -140,15 +141,15 @@ const content = {
         </>
       ),
       miniTag: <>SITES PARA ADVOGADOS E ESCRITÓRIOS</>,
-      FirstPart: <span>Desenvolvemos </span>,
+      FirstPart: <span>Seu escritório já evoluiu. Seu </span>,
       Destaque: (
-        <span className="destaque relative italic font-light">sites</span>
+        <span className="destaque relative italic font-light">site</span>
       ),
-      SecondPart: <span> à altura da sua reputação e do seu escritório</span>,
+      SecondPart: <span> também deveria.</span>,
       subtitle: (
         <p>
-          Há anos desenvolvemos sites que elevam a imagem de{" "}
-          <strong>advogados e escritório</strong>s consolidados.
+          Há anos desenvolvemos páginas que elevam a imagem de{" "}
+          <strong>advogados e escritórios</strong> consolidados.
         </p>
       ),
       heroDefaultImage: heroDefaultImg,
@@ -236,13 +237,15 @@ const content = {
           ),
         },
         card4: {
-          title: <>Esse site atende às exigências da OAB?</>,
+          title: <>O domínio do site fica comigo ou com a empresa?</>,
           paragraph: (
             <>
-              Sim. O formato é institucional e informativo, alinhado ao que se
-              espera da comunicação jurídica. Não utilizamos linguagem apelativa
-              nem promessas comerciais. A proposta é apresentar o escritório com
-              sobriedade e respeito às normas da advocacia.
+              Na maioria dos projetos, o domínio é registrado inicialmente pela
+              nossa equipe para facilitar o processo de criação do site.
+              <br />
+              Caso o advogado ou escritório prefira, o domínio pode ser
+              transferido para seu próprio registro a qualquer momento, sem
+              qualquer impedimento.
             </>
           ),
         },
@@ -393,24 +396,25 @@ const content = {
     },
     cardsSection: {
       miniTag: <>SE NADA MUDAR, O CENÁRIO É ESTE</>,
-      title: <>Um site antigo compromete uma reputação atual</>,
+      title: <>Não ter um site compromete sua reputação atual</>,
       subtitle: (
         <>
-          Quando a apresentação não acompanha a evolução do escritório ou do
-          profissional, a percepção pode ficar para trás.
+          Sem um site institucional, muitas pessoas não encontram informações
+          claras sobre seu escritório e acabam buscando outro profissional que
+          transmita mais estrutura e organização.
         </>
       ),
       cards: {
         card1: {
           title: (
             <>
-              Seu escritório cresce, mas o site continua com a mesma aparência
-              de anos atrás
+              Seu escritório cresce, mas a apresentação online não acompanha
+              essa evolução
             </>
           ),
           icon: (
             <>
-              <FileText />
+              <ChartColumnDecreasing />
             </>
           ),
           link: "",
@@ -418,8 +422,8 @@ const content = {
         card2: {
           title: (
             <>
-              Clientes pesquisam seu nome e encontram uma apresentação simples
-              demais
+              Clientes pesquisam seu nome e encontram poucas informações sobre
+              sua atuação
             </>
           ),
           icon: (
@@ -433,7 +437,7 @@ const content = {
           title: (
             <>
               Concorrentes com menos tempo de mercado parecem mais estruturados
-              online
+              na internet
             </>
           ),
           icon: (
@@ -446,8 +450,8 @@ const content = {
         card4: {
           title: (
             <>
-              A sensação de que sua imagem não representa o nível que você já
-              alcançou
+              A imagem transmitida não representa o nível profissional que você
+              já alcançou
             </>
           ),
           icon: (
@@ -459,8 +463,8 @@ const content = {
         card5: {
           title: (
             <>
-              Dúvida constante se o site está reforçando ou diminuindo sua
-              autoridade
+              Incerteza sobre como seu escritório está sendo percebido por quem
+              pesquisa seu nome
             </>
           ),
           icon: (
@@ -474,10 +478,7 @@ const content = {
       fraseText: (
         <>
           <p>Reputação se constrói com anos de trabalho.</p> <br />
-          <p>
-            Mas pode ser julgada em{" "}
-            <span className="font-bold">poucos segundos no site</span>.
-          </p>
+          <p>Mas muitas vezes é avaliada em segundos.</p>
         </>
       ),
 
@@ -597,7 +598,7 @@ const content = {
           ),
           topic4: (
             <>
-              Escolher uma estrutura que transmita solidez hoje e continue
+              Escolher uma estrutura que transmite solidez hoje e continue
               adequada nos próximos anos
             </>
           ),
@@ -626,48 +627,30 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: <>Análise do seu posicionamento profissional</>,
-          cardDescription: (
-            <>
-              Entendemos sua trajetória, áreas de atuação e perfil de
-              atendimento para aplicar o modelo de forma coerente com o nível
-              que você já construiu.
-            </>
-          ),
+          cardTitle: <>Análise do escritório</>,
+          cardDescription: <>Entendemos sua trajetória e áreas de atuação.</>,
         },
 
         card2: {
           stepNumber: 2,
-          cardTitle: <>Estrutura institucional validada</>,
+          cardTitle: <>Estrutura jurídica</>,
           cardDescription: (
-            <>
-              Aplicamos um modelo desenvolvido exclusivamente para advogados,
-              com organização clara e linguagem adequada ao meio jurídico,
-              independentemente do tamanho da atuação.
-            </>
+            <>Modelo desenvolvido para apresentar escritórios.</>
           ),
         },
 
         card3: {
           stepNumber: 3,
-          cardTitle: <>Apresentação que reforça autoridade</>,
+          cardTitle: <>Autoridade profissional</>,
           cardDescription: (
-            <>
-              O site organiza suas informações e transmite estrutura desde o
-              primeiro acesso, fortalecendo a percepção de profissionalismo.
-            </>
+            <>Informações organizadas para transmitir credibilidade.</>
           ),
         },
 
         card4: {
           stepNumber: 4,
-          cardTitle: <>Base sólida e duradoura</>,
-          cardDescription: (
-            <>
-              Você recebe um site institucional preparado para representar sua
-              atuação hoje e continuar adequado ao longo dos anos.
-            </>
-          ),
+          cardTitle: <>Base institucional</>,
+          cardDescription: <>Site preparado para representar sua atuação.</>,
         },
       },
 
@@ -771,12 +754,12 @@ const content = {
           ),
         },
         card2: {
-          title: <>Conformidade com a OAB</>,
+          title: <>Experiência com escritórios</>,
           paragraph: (
             <>
-              Os sites seguem caráter institucional e informativo, respeitando
-              as normas da advocacia e evitando excessos que possam comprometer
-              a imagem profissional.
+              Já desenvolvemos projetos para advogados de diferentes áreas,
+              sempre com foco em organização das informações e apresentação
+              institucional.
             </>
           ),
         },
