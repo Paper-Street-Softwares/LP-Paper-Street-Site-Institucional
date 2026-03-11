@@ -141,15 +141,15 @@ const content = {
         </>
       ),
       miniTag: <>SITES PARA ADVOGADOS E ESCRITÓRIOS</>,
-      FirstPart: <span>Seu escritório já evoluiu. Seu </span>,
+      FirstPart: <span>Advogado ou escritório: ainda sem </span>,
       Destaque: (
         <span className="destaque relative italic font-light">site</span>
       ),
-      SecondPart: <span> também deveria.</span>,
+      SecondPart: <span> profissional?</span>,
       subtitle: (
         <p>
-          Há anos desenvolvemos páginas que elevam a imagem de{" "}
-          <strong>advogados e escritórios</strong> consolidados.
+          Há anos desenvolvemos páginas que destacam seu trabalho e transmitem{" "}
+          <strong>confiança</strong> para clientes.
         </p>
       ),
       heroDefaultImage: heroDefaultImg,
